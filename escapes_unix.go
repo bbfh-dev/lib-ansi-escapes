@@ -1,6 +1,7 @@
+//go:build aix || darwin || dragonfly || freebsd || linux || netbsd || openbsd || solaris
 // +build aix darwin dragonfly freebsd linux netbsd openbsd solaris
 
-package escapes
+package libescapes
 
 import (
 	"golang.org/x/sys/unix"

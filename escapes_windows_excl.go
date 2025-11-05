@@ -1,6 +1,7 @@
+//go:build !windows
 // +build !windows
 
-package escapes
+package libescapes
 
 // We make the assumption that non-Windows OSes support escape sequences by
 // default. Thus, EnableVirtualTerminal and DisableVirtualTerminal are defined

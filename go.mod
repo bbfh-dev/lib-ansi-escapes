@@ -1,4 +1,4 @@
-module github.com/bbfh-dev/ansi-escapes
+module github.com/bbfh-dev/lib-ansi-escapes
 
 go 1.25.1
 

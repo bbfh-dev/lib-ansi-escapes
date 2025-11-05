@@ -1,4 +1,4 @@
-package escapes
+package libescapes
 
 // https://www.ascii-code.com/
 const (

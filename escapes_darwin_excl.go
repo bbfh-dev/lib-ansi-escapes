@@ -1,6 +1,7 @@
+//go:build !darwin
 // +build !darwin
 
-package escapes
+package libescapes
 
 // We assume that only the Apple Terminal uses 7/8 instead of s/u
 

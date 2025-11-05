@@ -1,4 +1,4 @@
-package escapes
+package libescapes
 
 import "os"
 
