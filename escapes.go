@@ -206,3 +206,10 @@ func ImageWidthHeight(img []byte, height, width int, preserveAspectRatio bool) s
 func SetCwd(dir string) string {
 	return Osc + "50;CurrentDir=" + dir + Bel
 }
+
+func TrueColor(r, g, b uint64) string {
+	return Esc + "38;2;" +
+		strconv.FormatUint(r, 10) + ";" +
+		strconv.FormatUint(g, 10) + ";" +
+		strconv.FormatUint(b, 10) + "m"
+}
