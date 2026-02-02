@@ -207,6 +207,8 @@ func SetCwd(dir string) string {
 	return Osc + "50;CurrentDir=" + dir + Bel
 }
 
+// TrueColor returns the ansi escape sequence to set foreground RGB.
+// each number must be 0..255.
 func TrueColor(r, g, b uint64) string {
 	return Esc + "38;2;" +
 		strconv.FormatUint(r, 10) + ";" +
